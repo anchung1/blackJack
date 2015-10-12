@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser(credentials.cookieSecret)); //credentials.cookieSecret
 app.use(express.static(path.join(__dirname, 'public')));
 
-var staticPath = path.resolve(__dirname,'..', 'flickr1/dist');
+var staticPath = path.resolve(__dirname,'..', 'App/dist');
 console.log('SERVING FILE: ' + staticPath);
 app.use(express.static(staticPath));
 
