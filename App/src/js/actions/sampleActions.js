@@ -7,6 +7,13 @@ var sampleActions = {
             actionType: appConstants.SAMPLE_ITEM,
             data: item
         });
+    },
+
+    socketMsg: function(msg) {
+        AppDispatcher.handleAction(({
+            actionType: appConstants.SOCKET_MSG,
+            data: msg
+        }))
     }
 };
 
