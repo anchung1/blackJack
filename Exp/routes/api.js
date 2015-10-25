@@ -14,8 +14,8 @@ var Flickr = db.Flickr;
 var MemoryGame = db.MemoryGame;
 */
 
-var api_key = "76cceea6d278cbd158a726e6860951e7";
-var flickrApiOptions = ["name=value", "format=json"];
+/*var api_key = "76cceea6d278cbd158a726e6860951e7";
+var flickrApiOptions = ["name=value", "format=json"];*/
 
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');

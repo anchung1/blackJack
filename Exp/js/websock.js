@@ -16,7 +16,6 @@ function webSock(server) {
         });
 
         if (index < 0) {
-            console.log('new id found: ' + socket.id);
             this.sockets.push(socket);
         }
 
