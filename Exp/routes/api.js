@@ -4,6 +4,7 @@ var path = require('path');
 var request = require('request');
 var Promise = require('promise');
 
+/*
 var db = require('../schema/schema.js');
 //var Dora = mongoose.model('dora', doraSchema);
 var Dora = db.Dora;
@@ -11,6 +12,7 @@ var Users = db.Users;
 var Entry = db.Entry;
 var Flickr = db.Flickr;
 var MemoryGame = db.MemoryGame;
+*/
 
 var api_key = "76cceea6d278cbd158a726e6860951e7";
 var flickrApiOptions = ["name=value", "format=json"];
@@ -19,7 +21,7 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 
 var scoreDB;
-connectScoreDB();
+//connectScoreDB();
 
 function connectScoreDB() {
     var url = 'mongodb://localhost:27017/scores';

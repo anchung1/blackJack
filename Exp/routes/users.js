@@ -2,8 +2,10 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 
+/*
 var db = require('../schema/schema.js');
 var Users = db.Users;
+*/
 
 var cookieResp = {
     signed: true,
